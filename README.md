@@ -18,4 +18,11 @@ I recommend rebasing from [bazzite kde](https://bazzite.gg).
 
 ## Building iso
 
-You can build iso by yourself. Fork the repo and run build-live workflow. Building locally on your machine is wip.
+There are two ways to build ISO:
+
+ - Using Github actions: Fork this repository and run build-live workflow
+ - Building locally: Clone this repo and run (make sure you have just installed and works only on linux):
+ 
+```bash
+just build-live-iso
+```
