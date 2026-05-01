@@ -6,6 +6,9 @@ alias build-vm := build-qcow2
 alias rebuild-vm := rebuild-qcow2
 alias run-vm := run-vm-qcow2
 
+build-live-iso:
+    sudo HOOK_post_rootfs="./iso_files/configure_iso_anaconda.sh" just --justfile ./Justfile-liveiso build ghcr.io/existingperson08/spellos:latest 1 ./flatpaks/system-flatpaks.list
+
 [private]
 default:
     @just --list
