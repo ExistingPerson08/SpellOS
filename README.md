@@ -10,8 +10,7 @@ For now iso is not available (this will change soon), but you can rebate from an
 sudo bootc switch --enforce-container-sigpolicy ghcr.io/existingperson08/spellos:latest
 ```
 
-I recommend rebasing from bazzite kde (https://bazzite
-gg).
+I recommend rebasing from [bazzite kde](https://bazzite.gg).
 
 ## Building iso
 
