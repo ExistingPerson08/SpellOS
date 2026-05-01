@@ -49,7 +49,7 @@ jobs:
       - name: Rename ISO
         run: |
           mkdir -p output
-          mv ${{ steps.build.outputs.iso-dest }} output/origami-live-$(date +%Y%m%d).iso
+          mv ${{ steps.build.outputs.iso-dest }} output/spellos-live-$(date +%Y%m%d).iso
           (cd output && sha256sum *.iso | tee CHECKSUMS)
 
       - name: Upload ISO
