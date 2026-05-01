@@ -3,7 +3,7 @@
 set -ouex pipefail
 
 # Create autostart script
-mkdir -p /etc/skel/.config/autostart && sudo tee /etc/skel/.config/autostart/steam-game-install.desktop > /dev/null <<EOF
+mkdir -p /etc/skel/.config/autostart && tee /etc/skel/.config/autostart/steam-game-install.desktop > /dev/null <<EOF
 [Desktop Entry]
 Version=1.0
 Name=Spacefin welcome
