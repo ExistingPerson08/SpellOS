@@ -1,0 +1,10 @@
+# Web browsers
+# Uncomment when Zen removed from base image
+# app/app.zen_browser.zen
+
+# COSMIC apps
+app/dev.edfloreshz.Calculator
+
+# System managment
+app/com.github.tchx84.Flatseal
+app/io.github.flattool.Warehouse
