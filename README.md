@@ -2,6 +2,10 @@
 
 Linux with spellforce "preinstalled"
 
+## Notes
+
+This require you to own Spellforce: Platinum edition on Steam, cause the game is downloaded from steam on live and first boot.
+
 ## Installation
 
 For now iso is not available (this will change soon), but you can rebate from any Fedora Atomic/bootc system with:
